@@ -1,8 +1,8 @@
 {
-  "name": "sticky-table-headers",
-  "version": "1.0.0-alpha.1",
+  "name": "js-sticky-table-headers",
+  "version": "1.0.0-alpha.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
