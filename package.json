@@ -1,6 +1,6 @@
 {
   "name": "js-sticky-table-headers",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.4",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johngerome/sticky-thead"
-  }
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
