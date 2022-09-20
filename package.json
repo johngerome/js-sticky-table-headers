@@ -1,14 +1,17 @@
 {
   "name": "js-sticky-table-headers",
   "version": "1.0.0-alpha.4",
-  "description": "",
+  "description": "Sticky table headers (JS way). Just to support overflow layout.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "sticky",
+    "table"
+  ],
   "author": "John Gerome Baldonado <johngerome@gmail.com>",
   "license": "MIT",
   "devDependencies": {
