@@ -34,6 +34,7 @@ React
 
 ```js
 import { useEffect } from 'react';
+import stickyHeader from 'js-sticky-table-headers';
 // ...
 useEffect(() => {
   stickyHeader(document.querySelector('.table-wrapper'));
@@ -45,6 +46,8 @@ Vue 3
 ```html
 <script setup>
   import { onMounted } from 'vue';
+  import stickyHeader from 'js-sticky-table-headers';
+
   onMounted(() => {
     stickyHeader(document.querySelector('.table-wrapper'));
   });
@@ -55,6 +58,8 @@ SolidJS
 
 ```js
 import { createSignal, onMount } from 'solid-js';
+import stickyHeader from 'js-sticky-table-headers';
+
 // ...
 onMount(() => {
   setPageTitle(document.title);
