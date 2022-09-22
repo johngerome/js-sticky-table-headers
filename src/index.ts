@@ -19,11 +19,11 @@ function getOffset(el: HTMLElement | null): ElementOffset {
 }
 
 function stickyHeader(el: HTMLElement | null): void {
-  const table: HTMLTableElement | null = document.querySelector('table');
-
   if (!el) {
     throw new Error(`stickyHeader: Element not found, ${el}.`);
   }
+
+  const table: HTMLTableElement | null = el.querySelector('table');
 
   if (!table) {
     throw new Error(`stickyHeader: <table> not found in ${el}.`);
