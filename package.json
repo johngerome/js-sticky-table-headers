@@ -1,6 +1,6 @@
 {
   "name": "js-sticky-table-headers",
-  "version": "1.0.0-alpha.7",
+  "version": "1.0.0-alpha.8",
   "description": "Sticky table headers (JS way). Just to support overflow layout.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
